@@ -1,4 +1,4 @@
-/* Styles de base (optionnel, si vous voulez une couleur par défaut) */
+/* Styles de base */
 body {
     background-color: white; /* Couleur de fond par défaut */
     font-family: 'Roboto', Arial, sans-serif;
@@ -9,9 +9,22 @@ body {
 @media (max-width: 300px) {
     body {
         background-color: red;
+        color: white;
     }
     h1 {
-        font-size: 3em;
+        font-size: 2em;
+        color: white;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+    h3 {
+        font-size: 1.2em;
+        color: white;
+    }
+    p {
+        font-size: 1em;
     }
 }
 
@@ -19,18 +32,44 @@ body {
 @media (min-width: 301px) and (max-width: 768px) {
     body {
         background-color: green;
+        color: white;
     }
     h1 {
-        font-size: 4em;
+        font-size: 2em;
+        color: white;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+    h3 {
+        font-size: 1.2em;
+        color: white;
+    }
+    p {
+        font-size: 1em;
     }
 }
 
 /* Pour les écrans de 768 pixels et plus */
 @media (min-width: 769px) {
     body {
-        background-color: blue;
+        background-color: rgb(0, 110, 255);
+        color: white;
     }
     h1 {
-        font-size: 5em;
+        font-size: 2em;
+        color: white;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: white;
+    }
+    h3 {
+        font-size: 1.2em;
+        color: white;
+    }
+    p {
+        font-size: 1em;
     }
 }
