@@ -1,0 +1,36 @@
+/* Styles de base (optionnel, si vous voulez une couleur par défaut) */
+body {
+    background-color: white; /* Couleur de fond par défaut */
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Pour les écrans de moins de 300 pixels de largeur */
+@media (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+    h1 {
+        font-size: 3em;
+    }
+}
+
+/* Pour les écrans entre 300 pixels et 767 pixels de largeur */
+@media (min-width: 301px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    h1 {
+        font-size: 4em;
+    }
+}
+
+/* Pour les écrans de 768 pixels et plus */
+@media (min-width: 769px) {
+    body {
+        background-color: blue;
+    }
+    h1 {
+        font-size: 5em;
+    }
+}
